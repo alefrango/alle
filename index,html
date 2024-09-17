@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidados com Plantas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            color: #004d40;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #004d40;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cuidados com Plantas</h1>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Introdução</h2>
+            <p>Bem-vindo ao nosso guia sobre cuidados com plantas! Aqui você encontrará dicas valiosas para manter suas plantas saudáveis e felizes.</p>
+        </section>
+        <section class="section">
+            <h2>Dicas de Cuidados</h2>
+            <p>Para garantir que suas plantas prosperem, siga estas dicas:</p>
+            <ul>
+                <li>Regue suas plantas regularmente, mas evite encharcar o solo.</li>
+                <li>Certifique-se de que suas plantas recebam luz solar adequada.</li>
+                <li>Use fertilizantes para fornecer nutrientes essenciais.</li>
+                <li>Remova folhas mortas e faça a poda quando necessário.</li>
+            </ul>
+        </section>
+        <section class="section image-gallery">
+            <h2>Galeria de Plantas</h2>
+            <img src="https://via.placeholder.com/300x200?text=Planta+1" alt="Planta 1">
+            <img src="https://via.placeholder.com/300x200?text=Planta+2" alt="Planta 2">
+            <img src="https://via.placeholder.com/300x200?text=Planta+3" alt="Planta 3">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cuidados com Plantas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
